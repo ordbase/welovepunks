@@ -1,0 +1,24 @@
+###########
+# site.url, site.title
+
+url:   'http://planetopendata.github.io'
+title: 'Planet Open Data'
+
+########
+# more settings
+
+markdown: kramdown
+
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
