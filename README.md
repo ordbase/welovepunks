@@ -16,25 +16,21 @@ Find all 5000 reference images one-by-one in 24×24px in [**/i**](i):
 ![](i/monke0007.png)
 ![](i/monke0008.png)
 ![](i/monke0009.png)
-![](i/monke0010.png)
-
-...
+![](i/monke0010.png) ...
 
 and in 8x (196×196px) in [**/i@8x**](i@8x):
 
-![](i@8x/monke0000.png)
-![](i@8x/monke0001.png)
-![](i@8x/monke0002.png)
-![](i@8x/monke0003.png)
-![](i@8x/monke0004.png)
-![](i@8x/monke0005.png)
-![](i@8x/monke0006.png)
-![](i@8x/monke0007.png)
-![](i@8x/monke0008.png)
-![](i@8x/monke0009.png)
-![](i@8x/monke0010.png)
-
-...
+![](i@8x/monke0000@8x.png)
+![](i@8x/monke0001@8x.png)
+![](i@8x/monke0002@8x.png)
+![](i@8x/monke0003@8x.png)
+![](i@8x/monke0004@8x.png)
+![](i@8x/monke0005@8x.png)
+![](i@8x/monke0006@8x.png)
+![](i@8x/monke0007@8x.png)
+![](i@8x/monke0008@8x.png)
+![](i@8x/monke0009@8x.png)
+![](i@8x/monke0010@8x.png) ...
 
 
 Find all meta data in the [welovemonkes.csv](welovemonkes) tabular dataset e.g.
