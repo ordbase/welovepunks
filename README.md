@@ -33,7 +33,7 @@ and in 8x (196×196px) in [**/i@8x**](i@8x):
 ![](i@8x/monke0010@8x.png) ...
 
 
-Find all meta data in the [welovemonkes.csv](welovemonkes) tabular dataset e.g.
+Find all meta data in the [welovemonkes.csv](welovemonkes.csv) tabular dataset e.g.
 
 ```
 id, type, accessories
