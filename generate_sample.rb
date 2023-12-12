@@ -10,9 +10,9 @@ specs = parse_data( <<DATA )
   maxibiz 
   black
   default
-  human1
-  human2
-  human3
+  dark
+  light
+  albino
   orange
   pink
   zombie
@@ -22,9 +22,9 @@ specs = parse_data( <<DATA )
   maxibiz, mohawk
   black, mohawk
   default, mohawk
-  human1, mohawk
-  human2, mohawk
-  human3, mohawk
+  dark, mohawk
+  light, mohawk
+  albino, mohawk
   orange, mohawk red
   pink, mohawk blonde, earring
   zombie, mohawk red
@@ -34,11 +34,11 @@ specs = parse_data( <<DATA )
   maxibiz, top hat, earring, 3d glasses 
   black, top hat, earring, 3d glasses 
   default, top hat, earring, 3d glasses 
-  human1, top hat, earring, 3d glasses
-  human2, top hat, earring, 3d glasses
-  human3, top hat, earring, 3d glasses
+  dark, top hat, earring, 3d glasses
+  light, top hat, earring, 3d glasses
+  albino, top hat, earring, 3d glasses
   orange, top hat, earring, 3d glasses
-  pink, bob blonde, cap, earring, 3d glasses
+  pink, bob blonde, cap small, earring, 3d glasses
   zombie, top hat, gold chain, 3d glasses
   orc, top hat, gold chain, 3d glasses
   alien, headband
@@ -46,21 +46,21 @@ specs = parse_data( <<DATA )
   maxibiz, beanie 
   black, knitted cap
   default,  headband
-  human1, ski googles, luxuriousbeard
-  human2, classic shades, luxuriousbeard light
-  human3, peak spike, beard, cool shades
+  dark, polarized shades, luxuriousbeard
+  light, classic shades, luxuriousbeard light
+  albino, peak spike, beard, cool shades
   orange, beard light, eye patch
   pink, peak spike blonde, earring, big shades
   zombie, chinstrap light
   orc, eyemask, gold chain, goat
   alien, cap forward, pipe
 
-  maxibiz, cap2, bubblegum 
-  black, cap3
+  maxibiz, cap mcb, bubblegum 
+  black, cap
   default, wizardhat
-  human1, cowboyhat
-  human2, wizardhat, bubblegum
-  human3, crown
+  dark, cowboyhat
+  light, wizardhat, bubblegum
+  albino, crown
   orange, jesterhat, bubblegum
   pink, crown
   zombie, bandana2
@@ -73,9 +73,9 @@ specs = parse_data( <<DATA )
   maxibiz, hoodie, vr
   black, hoodie, vr
   default, hoodie, vr
-  human1, hoodie, vr
-  human2, hoodie, vr
-  human3, hoodie, vr
+  dark, hoodie, vr
+  light, hoodie, vr
+  albino, hoodie, vr
   orange, hoodie, vr
   pink, hoodie, vr, gold chain
   zombie, hoodie, vr
@@ -85,9 +85,9 @@ specs = parse_data( <<DATA )
   maxibiz, clown eyes, clown nose, wild hair 
   black, clown eyes, clown nose, wild hair 
   default, clown eyes, clown nose, wild hair 
-  human1, clown eyes,  clown nose, wild hair
-  human2, clown eyes, clown nose, wild hair blonde
-  human3, clown eyes, clown nose, wild hair
+  dark, clown eyes,  clown nose, wild hair
+  light, clown eyes, clown nose, wild hair blonde
+  albino, clown eyes, clown nose, wild hair
   orange, clown eyes, clown nose, wild hair red
   pink, clown eyes blue, clown nose, bob blonde
   zombie, clown eyes, clown nose, wild hair red
@@ -97,9 +97,9 @@ specs = parse_data( <<DATA )
   maxibiz, mohawk2, lasereyes red
   black, mohawk2, lasereyes red
   default, mohawk2, lasereyes red
-  human1, mohawk2, lasereyes green
-  human2, mohawk2, lasereyes blue
-  human3, mohawk2, lasereyes gold
+  dark, mohawk2, lasereyes green
+  light, mohawk2, lasereyes blue
+  albino, mohawk2, lasereyes gold
   orange, mohawk2 red, lasereyes2 red
   pink, mohawk2 blonde, earring, lasereyes2 blue
   zombie, mohawk2 red, lasereyes2 green
@@ -109,9 +109,9 @@ specs = parse_data( <<DATA )
   maxibiz, wild hair, lasereyes3 red
   black, wild hair, lasereyes3 red
   default, wild hair, lasereyes3 red
-  human1, wild hair, lasereyes3 green, clown nose
-  human2, lasereyes3 blue, clown nose
-  human3, lasereyes3 red
+  dark, wild hair, lasereyes3 green, clown nose
+  light, lasereyes3 blue, clown nose
+  albino, lasereyes3 red
   orange, wild hair red, lasereyes3 green
   pink, bob blonde, lasereyes3 blue
   zombie, lasereyes3 green

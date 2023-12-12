@@ -44,18 +44,18 @@ and in 8x (196×196px) in [**/i@8x**](i@8x):
 Find all meta data in the [welovemonkes.csv](welovemonkes.csv) tabular dataset e.g.
 
 ```
-id, type, accessories
-0, maxibiz, chinstrap / tophat / goldchain
-1, black, bob / lasereyes2-red
-2, default, capforward / earring / skigoogles
-3, human1, chinstrap-light / wizardhat / earring / lasereyes3-green
-4, human2, chinstrap / cowboyhat / vr
-5, human3, headband / lasereyes3-green
-6, orange, mohawk2-blonde / clowneyes / clownnose
-7, zombie, mohawk-purple
-8, orc, chinstrap-light / wildhair-red / classicshades
-9, alien, bandana / eyemask
-10, pink, bob-blonde / headband / earring
+id, type, accessories, background
+0, maxibiz, chinstrap / tophat / goldchain, bitcoin orange
+1, black, bob / lasereyes2 red, bitcoin pattern
+2, default, capforward / earring / polarizedshades, default
+3, dark, chinstrap light / wizardhat / earring / lasereyes3 green, green
+4, light, chinstrap / cowboyhat / vr, dollar pattern
+5, albino, headband / lasereyes3 green, blue
+6, orange, mohawk2 blonde / clowneyes / clownnose, euro pattern
+7, zombie, mohawk purple, aqua
+8, orc, chinstrap light / wildhair red / classicshades, classic
+9, alien, bandana / eyemask, rainbow
+10, pink, bob blonde / headband / earring, ukraine
 ...
 ```
 

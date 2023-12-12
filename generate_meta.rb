@@ -6,9 +6,9 @@ CATEGORIES = {
         'black',
         'default',
 
-        'human1', 
-        'human2', 
-        'human3', 
+        'dark', 
+        'light', 
+        'albino', 
         'orange', 
         'zombie', 
         'orc',    
@@ -26,23 +26,23 @@ CATEGORIES = {
                 ],    
   'hair' => [
         'mohawk',        'mohawk2',
-        'mohawk-purple', 'mohawk2-purple',
-        'mohawk-red',    'mohawk2-red',
-        'mohawk-blonde', 'mohawk2-blonde',
+        'mohawk purple', 'mohawk2 purple',
+        'mohawk red',    'mohawk2 red',
+        'mohawk blonde', 'mohawk2 blonde',
         'wildhair',
-        'wildhair-blonde',
-        'wildhair-red',
-        'wildhair-purple',
+        'wildhair blonde',
+        'wildhair red',
+        'wildhair purple',
         'peakspike',
  
   ],
   ## use for pink (barbie)
   'hair_blonde_f' => [ 
-          'mohawk-blonde', 'mohawk2-blonde',
-          'peakspike-blonde',     ## exclusive
-          'bob-blonde',           ## exclusive
-          ['bob-blonde', 'cap'],       ## exclusive
-          ['bob-blonde', 'headband'],  ## exclusive
+          'mohawk blonde', 'mohawk2 blonde',
+          'peakspike blonde',     ## exclusive
+          'bob blonde',           ## exclusive
+          ['bob blonde', 'cap small'],   ## exclusive
+          ['bob blonde', 'headband'],  ## exclusive
      ],   
 
   'hat' => [
@@ -52,8 +52,8 @@ CATEGORIES = {
     'capforward',
     'headband',
     'hoodie',
-    'cap2',
-    'cap3',
+    'cap mcb',
+    'cap',
     'cowboyhat',
     'wizardhat',
     'jesterhat',
@@ -64,33 +64,33 @@ CATEGORIES = {
   'hat_blonde_f' => [
     'knittedcap',
     'beanie',
-    'cap',
+    'cap small',
     'cowboyhat',
     'jesterhat',
     'bandana',
     'hoodie',
     'frenchcap',  # exclusive
-    ## no tophat, capforward, headband - why? why not?
+    ## no tophat, capforward, headband   why? why not?
   ],
   'lasereyes_black' => [
-    'lasereyes-red', 'lasereyes2-red', 
-    'lasereyes-green','lasereyes2-green', 
-    'lasereyes-blue', 'lasereyes2-blue', 
-    'lasereyes-gold', 'lasereyes2-gold', 
+    'lasereyes red', 'lasereyes2 red', 
+    'lasereyes green','lasereyes2 green', 
+    'lasereyes blue', 'lasereyes2 blue', 
+    'lasereyes gold', 'lasereyes2 gold', 
   ],
   'lasereyes' => [
-    'lasereyes3-red',
-    'lasereyes3-green',
-    'lasereyes3-gold',
+    'lasereyes3 red',
+    'lasereyes3 green',
+    'lasereyes3 gold',
   ],
   'lasereyes_blonde_f' => [
-    'lasereyes3-blue',   # exclusive
+    'lasereyes3 blue',   # exclusive
   ],
 
   'eyewear' => [
      'eyemask',
      '3dglasses',
-     'skigoogles',
+     'polarizedshades',
      'classicshades',
      'coolshades',   ## exclusive (to non-blondes)
      'eyepatch',    
@@ -100,11 +100,11 @@ CATEGORIES = {
   'eyewear_blonde_f' => [
     'eyemask',
     '3dglasses',
-    'skigoogles',
+    'polarizedshades',
     'classicshades',
     'eyepatch',    
      'vr',
-    ['clowneyes-blue', 'clownnose'],   ## exclusive 
+    ['clowneyes blue', 'clownnose'],   ## exclusive 
     'bigshades',  ## exclusive
   ], 
   
@@ -115,11 +115,11 @@ CATEGORIES = {
   ],
   'beard' => [
    'luxuriousbeard',
-   'luxuriousbeard-light',
+   'luxuriousbeard light',
    'beard',
-   'beard-light',
+   'beard light',
    'chinstrap',
-   'chinstrap-light',
+   'chinstrap light',
    'goat',  
   ],
   'ear_neck' => [
@@ -252,12 +252,34 @@ def generate_meta( max=1000, seed: 4242 )
 
   recs = []
 
+  backgrounds = [ 
+    'bitcoin orange',
+    'bitcoin pattern', 
+    'red',  
+    'green',  
+    'dollar pattern', 
+    'blue',
+    'euro pattern',
+    'aqua',
+    'classic',
+    'rainbow',
+    'ukraine',
+    'usa',
+  ]
+
   bases = CATEGORIES['base']
+
   max.times do |id|
       base        = bases[ id % bases.size ]
       accessories = random_attributes( base )
     
-      attributes = [base] + accessories
+      background = if base.index( 'default' )
+                      'default'
+                   else
+                       backgrounds[id % backgrounds.size ] 
+                   end
+ 
+      attributes = [background, base] + accessories
       print "==> #{id}: "
       pp attributes
 
@@ -265,6 +287,7 @@ def generate_meta( max=1000, seed: 4242 )
     rec << id.to_s   ## add id - starting at one
     rec << base
     rec << accessories.join(' / ')
+    rec << background
 
     recs << rec
   end
@@ -275,10 +298,10 @@ end
 
 
 recs = generate_meta( 5000 )
-pp recs
+## pp recs
 
 
-headers = ['id', 'type', 'accessories']
+headers = ['id', 'type', 'accessories', 'background']
 File.open( "./tmp/welovemonkes.csv", "w:utf-8" ) do |f|
    f.write( headers.join( ', '))
    f.write( "\n")

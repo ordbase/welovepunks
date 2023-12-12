@@ -16,27 +16,20 @@ composite = ImageComposite.new( cols, rows,
 
 
 specs.each_with_index do |rec, i|
-     base = rec['type']
+     base        = rec['type']
      accessories = (rec[ 'accessories'] || '' ).split( '/').map { |acc| acc.strip }
+     background  = rec['background']
+     
+     spec = ["bg #{background}", base] + accessories
 
-     spec = [base] + accessories
-
-     frame = Image.new( 24, 24 )
-     key = if base.index( 'default' )
-             'backgrounddefault'
-           else
-             BACKGROUNDS[i % BACKGROUNDS.size ].gsub( /[^a-z0-9]/, '' ) 
-           end
-     frame.compose!( ATTRIBUTES[ key ] )
-
-     frame.compose!( generate( *spec) )
+     img = generate( *spec )
      
      num = "%04d" % i
      puts "==> monke #{num}"
-     frame.save( "./tmp/i/monke#{num}.png" )
-     frame.zoom(8).save( "./tmp/i@8x/monke#{num}@8x.png" )
+     img.save( "./tmp/i/monke#{num}.png" )
+     img.zoom(8).save( "./tmp/i@8x/monke#{num}@8x.png" )
      
-     composite << frame
+     composite << img
 end
 
 

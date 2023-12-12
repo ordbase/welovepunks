@@ -2,27 +2,27 @@
 
 ATTRIBUTES = {
    backgrounds: [
-     'background-bitcoin-orange',
-     'background-bitcoin-pattern',
-     'background-red',
-     'background-green',
-     'background-dollar-pattern',
-     'background-blue',
-     'background-euro-pattern',
-     'background-aqua',
-     'background-classic',
-     'background-default',
-     'background-rainbow',
-     'background-ukraine',
-     'background-usa',
+     'bitcoin-orange',
+     'bitcoin-pattern',
+     'red',
+     'green',
+     'dollar-pattern',
+     'blue',
+     'euro-pattern',
+     'aqua',
+     'classic',
+     'default',
+     'rainbow',
+     'ukraine',
+     'usa',
     ],
     base: [
      'maxibiz',
      'black',
      'default',
-     'human1', 
-     'human2', 
-     'human3', 
+     'dark', 
+     'light', 
+     'albino', 
      'orange', 
      'pink',   
      'zombie', 
@@ -56,7 +56,7 @@ ATTRIBUTES = {
    'clowneyes-blue',
    'eyemask',
    '3dglasses',
-   'skigoogles',
+   'polarizedshades',
    'classicshades',
    'bigshades',
    'coolshades',
@@ -71,8 +71,8 @@ ATTRIBUTES = {
    'chinstrap-light',
    'pipe',
 
-    'cap2',
-    'cap3',
+    'cap-small',
+    'cap-mcb',
     'cowboyhat',
     'wizardhat',
     'jesterhat',
@@ -91,6 +91,9 @@ ATTRIBUTES = {
    names.each do |name| 
      key = File.basename( name ).downcase.gsub( /[^a-z0-9]/, '' )
 
+     ## fix-up names by category 
+     key = "bg#{key}"    if category == :backgrounds
+
      ## fix-up file path by category
      path =  category == :base ? name : "#{category}/#{name}"
      
@@ -98,22 +101,6 @@ ATTRIBUTES = {
    end
    h
 end
-
-
-BACKGROUNDS = [
-    'background bitcoin orange',
-    'background bitcoin pattern', 
-    'background red',  
-    'background green',  
-    'background dollar pattern', 
-    'background blue',
-    'background euro pattern',
-    'background aqua',
-    'background classic',
-    'background rainbow',
-    'background ukraine',
-    'background usa',
-]
 
 
 
