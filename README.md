@@ -1,3 +1,11 @@
+
+
+Looking for 21 000 Monkes (28px)? 
+See [Monke See, Monke Do (28×28px) »](https://github.com/ordbase/monkesee-monkedo)
+
+
+
+
 #  We Love Monkes (24×24px)
 
 
@@ -63,10 +71,34 @@ Bonus - All together now. Find the composite fam image of all 5000 in a 100×50 
 For reference find all (generative) attributes (base types, backgrounds and accessories) in 24×24px in [**/attributes**](attributes).
 
 
-Yes, you can regenerate this random set 
+Yes, you can generate your own samples via "text prompts" using the generate_samples script and you can regenerate this random set 
 using the generate_meta script
 and using the generate script to generate all images
 from the tabular dataset.
 
+
+
+
+
+## Markets
+
+Mint of Bitcoin Ordinal Inscriptions in December, 2023.
+Find the 5000 Node Punks:
+
+- @ Ordzaar  <https://ordzaar.com/marketplace/collections/thenodepunks>
+- @ Magic Eden (ME) <https://magiceden.io/ordinals/marketplace/nodepunks>  
+
+
+
+
+
+
+## Questions? Comments?
+
+
+Join us in the [Ordbase (Incl Ordgen / ORC-721) discord (chat server)](https://discord.gg/dDhvHKjm2t). Yes you can.
+Your questions and commetary welcome.
+
+Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
 
 

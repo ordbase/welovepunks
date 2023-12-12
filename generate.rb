@@ -33,13 +33,13 @@ specs.each_with_index do |rec, i|
      
      num = "%04d" % i
      puts "==> monke #{num}"
-     frame.save( "./i/monke#{num}.png" )
-     frame.zoom(8).save( "./i@8x/monke#{num}@8x.png" )
+     frame.save( "./tmp/i/monke#{num}.png" )
+     frame.zoom(8).save( "./tmp/i@8x/monke#{num}@8x.png" )
      
      composite << frame
 end
 
 
-composite.save( "./welovemonkes.png" )
+composite.save( "./tmp/welovemonkes.png" )
 
 puts "bye"

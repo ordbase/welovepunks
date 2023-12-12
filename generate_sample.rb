@@ -130,31 +130,17 @@ rows += 1    if specs.size % cols != 0
 composite = ImageComposite.new( cols, rows, 
                                   width: 24, height: 24 )
 
-composite2 = ImageComposite.new( cols, rows, 
-                                  width: 24, height: 24 )
 
-specs.each_with_index do |spec, i|
+specs.each_with_index do |spec, i| 
      img = generate( *spec)
+     
      img.save( "./tmp/monke#{i}.png" )
      img.zoom(10).save( "./tmp/monke#{i}@10x.png" )
      composite << img
-
-     img2 = Image.new( 24, 24 )
-     key = if base.index( 'default' )
-             'backgrounddefault'
-           else
-            BACKGROUNDS[i % BACKGROUNDS.size ].gsub( /[^a-z0-9]/, '' ) 
-           end
-     img2.compose!( ATTRIBUTES[ key ] )
-     img2.compose!( img )
-     composite2 << img2
 end
 
 
 composite.save( "./tmp/welovemonkes.png" )
 composite.zoom(4).save( "./tmp/welovemonkes@4x.png" )
-
-composite2.save( "./tmp/welovemonkes2.png" )
-composite2.zoom(4).save( "./tmp/welovemonkes2@4x.png" )
 
 puts "bye"
