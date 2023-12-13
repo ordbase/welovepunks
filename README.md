@@ -8,6 +8,18 @@ See [Monke See, Monke Do (28×28px) »](https://github.com/ordbase/monkesee-monk
 
 #  We Love Monkes (24×24px)
 
+## What's News? Updates
+
+**NEW!**   Mint via [Bitcoin Ordinal Inscriptions](https://ordinals.com) in December, 2023.
+Find the 5000 Node Punks:
+
+- @ Ordzaar  <https://ordzaar.com/marketplace/collections/thenodepunks>
+- @ Magic Eden (ME) <https://magiceden.io/ordinals/marketplace/nodepunks>  
+ 
+
+
+
+## Intro
 
 Let's generate 5000 punks (24×24px) in a "We Love Monkes" reference edition.
 
@@ -80,24 +92,12 @@ from the tabular dataset.
 
 
 
-## Markets
-
-Mint of Bitcoin Ordinal Inscriptions in December, 2023.
-Find the 5000 Node Punks:
-
-- @ Ordzaar  <https://ordzaar.com/marketplace/collections/thenodepunks>
-- @ Magic Eden (ME) <https://magiceden.io/ordinals/marketplace/nodepunks>  
-
-
-
-
-
 
 ## Questions? Comments?
 
 
 Join us in the [Ordbase (Incl Ordgen / ORC-721) discord (chat server)](https://discord.gg/dDhvHKjm2t). Yes you can.
-Your questions and commetary welcome.
+Your questions and commentary welcome.
 
 Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
 
