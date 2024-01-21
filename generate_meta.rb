@@ -302,7 +302,7 @@ recs = generate_meta( 5000 )
 
 
 headers = ['id', 'type', 'accessories', 'background']
-File.open( "./tmp/welovemonkes.csv", "w:utf-8" ) do |f|
+File.open( "./tmp/welovepunks.csv", "w:utf-8" ) do |f|
    f.write( headers.join( ', '))
    f.write( "\n")
    recs.each do |values|

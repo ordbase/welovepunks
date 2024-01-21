@@ -27,34 +27,34 @@ Let's generate 5000 punks (24×24px) in a "We Love ~~Monkes~~ Punks" reference e
 
 Find all 5000 reference images one-by-one in 24×24px in [**/i**](i):
 
-![](i/monke0000.png)
-![](i/monke0001.png)
-![](i/monke0002.png)
-![](i/monke0003.png)
-![](i/monke0004.png)
-![](i/monke0005.png)
-![](i/monke0006.png)
-![](i/monke0007.png)
-![](i/monke0008.png)
-![](i/monke0009.png)
-![](i/monke0010.png) ...
+![](i/punk0000.png)
+![](i/punk0001.png)
+![](i/punk0002.png)
+![](i/punk0003.png)
+![](i/punk0004.png)
+![](i/punk0005.png)
+![](i/punk0006.png)
+![](i/punk0007.png)
+![](i/punk0008.png)
+![](i/punk0009.png)
+![](i/punk0010.png) ...
 
 and in 8x (196×196px) in [**/i@8x**](i@8x):
 
-![](i@8x/monke0000@8x.png)
-![](i@8x/monke0001@8x.png)
-![](i@8x/monke0002@8x.png)
-![](i@8x/monke0003@8x.png)
-![](i@8x/monke0004@8x.png)
-![](i@8x/monke0005@8x.png)
-![](i@8x/monke0006@8x.png)
-![](i@8x/monke0007@8x.png)
-![](i@8x/monke0008@8x.png)
-![](i@8x/monke0009@8x.png)
-![](i@8x/monke0010@8x.png) ...
+![](i@8x/punk0000@8x.png)
+![](i@8x/punk0001@8x.png)
+![](i@8x/punk0002@8x.png)
+![](i@8x/punk0003@8x.png)
+![](i@8x/punk0004@8x.png)
+![](i@8x/punk0005@8x.png)
+![](i@8x/punk0006@8x.png)
+![](i@8x/punk0007@8x.png)
+![](i@8x/punk0008@8x.png)
+![](i@8x/punk0009@8x.png)
+![](i@8x/punk0010@8x.png) ...
 
 
-Find all meta data in the [welovemonkes.csv](welovemonkes.csv) tabular dataset e.g.
+Find all meta data in the [welovepunks.csv](welovepunks.csv) tabular dataset e.g.
 
 ```
 id, type, accessories, background
@@ -74,7 +74,7 @@ id, type, accessories, background
 
 
 
-Bonus - All together now. Find the composite fam image of all 5000 in a 100×50 grid in [welovemonkes.png](welovemonkes.png) (~550kb - 2400×1200px).
+Bonus - All together now. Find the composite fam image of all 5000 in a 100×50 grid in [welovepunks.png](welovepunks.png) (~550kb - 2400×1200px).
 
 
 

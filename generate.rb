@@ -4,7 +4,7 @@ require_relative 'base'
 
 
 
-specs = read_csv( "./welovemonkes.csv" )
+specs = read_csv( "./welovepunks.csv" )
 
 
 cols = 100
@@ -25,14 +25,14 @@ specs.each_with_index do |rec, i|
      img = generate( *spec )
      
      num = "%04d" % i
-     puts "==> monke #{num}"
-     img.save( "./tmp/i/monke#{num}.png" )
-     img.zoom(8).save( "./tmp/i@8x/monke#{num}@8x.png" )
+     puts "==> punk #{num}"
+     img.save( "./tmp/i/punk#{num}.png" )
+     img.zoom(8).save( "./tmp/i@8x/punk#{num}@8x.png" )
      
      composite << img
 end
 
 
-composite.save( "./tmp/welovemonkes.png" )
+composite.save( "./tmp/welovepunks.png" )
 
 puts "bye"

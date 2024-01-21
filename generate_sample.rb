@@ -134,13 +134,13 @@ composite = ImageComposite.new( cols, rows,
 specs.each_with_index do |spec, i| 
      img = generate( *spec)
      
-     img.save( "./tmp/monke#{i}.png" )
-     img.zoom(10).save( "./tmp/monke#{i}@10x.png" )
+     img.save( "./tmp/punk#{i}.png" )
+     img.zoom(10).save( "./tmp/punk#{i}@10x.png" )
      composite << img
 end
 
 
-composite.save( "./tmp/welovemonkes.png" )
-composite.zoom(4).save( "./tmp/welovemonkes@4x.png" )
+composite.save( "./tmp/welovepunks.png" )
+composite.zoom(4).save( "./tmp/welovepunks@4x.png" )
 
 puts "bye"
