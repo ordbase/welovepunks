@@ -7,7 +7,7 @@ See [Monke See, Monke Do (28×28px) »](https://github.com/ordbase/monkesee-monk
 
 
 
-#  We Love Monkes (24×24px)
+#  We Love ~~Monkes~~ Punks (24×24px)
 
 ## What's News? Updates
 
@@ -22,7 +22,7 @@ Find the 5000 Node Punks:
 
 ## Intro
 
-Let's generate 5000 punks (24×24px) in a "We Love Monkes" reference edition.
+Let's generate 5000 punks (24×24px) in a "We Love ~~Monkes~~ Punks" reference edition.
 
 
 Find all 5000 reference images one-by-one in 24×24px in [**/i**](i):
