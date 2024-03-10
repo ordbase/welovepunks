@@ -6,6 +6,22 @@ require_relative 'base'
 
 
 specs = parse_data( <<DATA )
+ ## try new samples
+ light, wild hair, cool shades, beard light
+ light, headband, beard, 3d glasses, pipe
+ light, knitted cap, big shades, beard
+
+ orc, wild hair, medical mask, classic shades
+ orc, wild hair, medical mask
+ orc,  medical mask
+ dark, do-rag, beard, 3d glasses
+ dark, do-rag, beard
+ dark, do-rag
+ dark, long hair pink, cap small, clown eyes blue, mole, purple lipstick
+ dark, long hair pink, mole, purple lipstick
+ dark, long hair blonde, mole, purple lipstick
+ light, long hair blonde, mole, purple lipstick
+
  ## archetypes
   maxibiz 
   black
@@ -117,7 +133,6 @@ specs = parse_data( <<DATA )
   zombie, lasereyes3 green
   orc, lasereyes3 red
   alien, lasereyes3 gold
-
 DATA
 
 
