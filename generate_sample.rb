@@ -6,6 +6,88 @@ require_relative 'base'
 
 
 specs = parse_data( <<DATA )
+  alien, cap mcd
+
+  ape
+  ape, knitted cap
+  ape, regular shades
+  ape, bandana
+  ape, cap mcd
+  ape, hoodie
+
+  ape golden
+  ape golden, regular shades
+  ape golden, laser eyes red
+  ape golden, laser eyes 2 red
+  ape golden, laser eyes 3 red
+  ape golden, 3d glasses, crown
+ 
+  ## try more attributes
+ light, regular shades
+ orc, regular shades
+ albino, regular shades
+ pink, regular shades
+ orange, regular shades
+ zombie, regular shades
+
+ light, horned rim glasses
+ orc, horned rim glasses
+ albino, horned rim glasses
+ pink, horned rim glasses
+ orange, horned rim glasses
+ zombie, horned rim glasses
+
+
+ light, headphone
+ orc, headphone
+
+ joe, regular shades
+ joe, horned rim glasses
+ joe, headphone
+ joe, headband
+ joe, bandana
+ joe, do-rag blue
+
+ donald, regular shades
+ donald, horned rim glasses
+ donald, headphone2
+ donald, headband2
+ donald, cap red
+ donald, bandana3
+ donald, do-rag red
+
+ light, bandana, headphone2
+ light, bandana3, headphone2
+
+ light, do-rag 
+ light, do-rag, headphone
+ light, do-rag, headphone2
+
+ light, do-rag red
+ light, do-rag red, headphone
+ light, do-rag red, headphone2
+
+ light, long hair blonde
+ light, long hair pink
+ dark, long hair 
+ pink, long hair blonde
+
+ light, long hair blonde, purple lipstick
+ light, long hair pink, purple lipstick
+ dark, long hair, purple lipstick
+ pink, long hair blonde, purple lipstick
+
+ pink, long hair blonde, purple lipstick, mole, earring
+ pink, long hair blonde, horned rim glasses, purple lipstick, mole, earring
+
+
+ light, bob blonde
+ light, bob
+
+ light, bob 2 blonde
+ light, bob 2 pink
+
+
  ## try new samples
  light, wild hair, cool shades, beard light
  light, headband, beard, 3d glasses, pipe

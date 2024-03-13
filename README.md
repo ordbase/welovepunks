@@ -9,7 +9,104 @@ See [Monke See, Monke Do (28×28px) »](https://github.com/ordbase/monkesee-monk
 
 #  We Love ~~Monkes~~ Punks (24×24px)
 
-## What's News? Updates
+
+## V2
+
+Let's add more archetypes and accessories!
+
+
+Let's go full circle and 
+let's add ~~monkes~~ apes to node punks (24×24px).  
+The planet ape line-up in 4x.  Classic and Golden.  
+
+![](ii/apes@4x.png)
+
+The (meta data) specs read:
+
+```
+ape
+ape, regular shades
+ape, knitted cap
+ape, bandana
+ape, cap mcd
+ape, hoodie
+  
+ape golden
+ape golden, regular shades
+ape golden, laser eyes red
+ape golden, laser eyes 2 red
+ape golden, laser eyes 3 red
+ape golden, 3d glasses, crown
+```
+
+
+
+Let's do node punks for presidents! Let's try the joe (biden) 
+and donald (trump) readymades. The line-up in 4x.  
+
+![](ii/presidents@4x.png)
+
+The (meta data) specs read:
+
+```
+joe
+joe, 3d glasses
+joe, vr
+joe, polarized shades
+joe, laser eyes blue
+joe, laser eyes 2 blue
+joe, laser eyes 3 blue
+joe, cap blue
+joe, clown eyes blue, clown nose
+joe, clown eyes blue, clown nose, jester hat
+joe, regular shades
+joe, horned rim glasses
+joe, headphone
+joe, do-rag blue
+
+bg usa, joe
+bg blue, joe
+bg dollar pattern, joe
+bg bitcoin orange, joe
+bg bitcoin pattern, joe
+bg rainbow, joe
+bg ukraine, joe
+
+donald
+donald, 3d glasses
+donald, vr
+donald, laser eyes red
+donald, laser eyes 2 red
+donald, laser eyes 3 red
+donald, cap red
+donald, clown eyes, clown nose
+donald, jester hat
+donald, crown
+donald, regular shades
+donald, horned rim glasses
+donald, headphone2
+donald, do-rag red
+
+bg usa, donald
+bg red, donald
+bg dollar pattern, donald
+bg bitcoin orange, donald
+bg bitcoin pattern, donald
+bg rainbow, donald
+bg ukraine, donald
+```
+
+
+Stay tuned for more.
+
+
+
+
+
+
+## V1 (Anno 2023)
+
+### What's News? Updates
 
 **NEW!**   Mint via [Bitcoin Ordinal Inscriptions](https://ordinals.com) in December, 2023.
 Find the 5000 Node Punks:
@@ -19,8 +116,7 @@ Find the 5000 Node Punks:
  
 
 
-
-## Intro
+### Intro
 
 Let's generate 5000 punks (24×24px) in a "We Love ~~Monkes~~ Punks" reference edition.
 
@@ -79,7 +175,7 @@ Bonus - All together now. Find the composite fam image of all 5000 in a 100×50 
 
 
 
-## Builders Corner - Yes, You Can
+### Builders Corner - Yes, You Can
 
 For reference find all (generative) attributes (base types, backgrounds and accessories) in 24×24px in [**/attributes**](attributes).
 
