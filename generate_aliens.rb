@@ -4,18 +4,17 @@ require 'pixelart'
 require_relative 'base'
 
 
-## note: small shades same as regular shades for now
 
 specs = parse_data( <<DATA )
  alien, bandana, regular shades 
  alien, cap
- alien, headband
+ alien, headband (ii)
  alien, cowboy hat, earring
  alien, bandana
- alien, do-rag, regular shades   
+ alien, do-rag, small shades   
  alien, knitted cap, earring
  alien, knitted cap, medical mask, earring
- alien, cap forward, regular shades, pipe
+ alien, cap forward, small shades, pipe
 DATA
 
 

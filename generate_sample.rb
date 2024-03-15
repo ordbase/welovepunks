@@ -9,8 +9,8 @@ specs = parse_data( <<DATA )
   alien, cap mcd
 
   ape
-  ape, knitted cap
   ape, regular shades
+  ape, knitted cap
   ape, bandana
   ape, cap mcd
   ape, hoodie
@@ -22,6 +22,21 @@ specs = parse_data( <<DATA )
   ape golden, laser eyes 3 red
   ape golden, 3d glasses, crown
  
+  ape, hoodie dark
+  ape, hoodie light
+  ape, small shades
+  ape, regular shades
+  ape, modern shades
+  ape, cool shades
+  ape, big shades
+  ape, big shades green
+  ape, classic hat
+  ape, fedora
+  ape, top hat
+  ape, cowboy hat
+  ape, cap mcb
+
+
   ## try more attributes
  light, regular shades
  orc, regular shades
